@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CampusConnect | Contact</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header class="site-header">
+        <div class="container nav-wrapper">
+            <div class="brand">CampusConnect</div>
+            <nav class="main-nav">
+                <a href="/">Home</a>
+                <a href="/about">About</a>
+                <a href="/services">Services</a>
+                <a href="/contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="page-main">
+        <section class="page-hero">
+            <div class="container narrow">
+                <p class="eyebrow">Get in touch</p>
+                <h1>Contact Us</h1>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <div class="container contact-layout">
+                <div class="contact-info">
+                    <div class="info-block">
+                        <h3>Email</h3>
+                        <p>campusconnect@example.com</p>
+                    </div>
+                    <div class="info-block">
+                        <h3>Phone</h3>
+                        <p>+91 98765 43210</p>
+                    </div>
+                    <div class="info-block">
+                        <h3>Location</h3>
+                        <p>Coimbatore, Tamil Nadu</p>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="input-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required />
+                    </div>
+                    <div class="input-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required />
+                    </div>
+                    <div class="input-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Write your message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary submit-btn">Send Message</button>
+                    <p id="formMessage" class="success-message" aria-live="polite"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 CampusConnect.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
